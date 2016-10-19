@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: shrikant12345
+  host: shrikant12345
+  disk_quota: 1024M
+  services:
+  - shrikant12345-cloudantNoSQLDB
